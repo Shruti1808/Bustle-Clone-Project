@@ -2,6 +2,7 @@
 
 
 <div class="ember-view">
-  {{article.title}} By{{article.author}} <img class="x-image__image" src="{{article.image}}"> {{article.description}}
+  {{article.title}} By{{article.author}} <img class="x-image__image" src={{article.image}}> {{article.description}}
 </div>
+{{update-article article=article update="update"}}
 <button{{action 'delete' article}}>Delete Article</button>
