@@ -7,8 +7,11 @@
   </div>
 </div>
 
+
 <ul>
   {{#each model as |article|}}
-  <li>{{article.title}} By{{article.author}} {{article.image}} {{article.description}}</li>
+  <ul>
+    {{article-tile article=article destroyArticle="destroyArticle"}}
+  </ul>
   {{/each}}
 </ul>
