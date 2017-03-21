@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  border: red 13px solid;
+  border: red 1px solid;
 }
 /*.ember-view {
   width: 945px;
@@ -29,6 +29,8 @@ body {
 
 .article-tile {
   background-color: white;
+  width: 945px;
+  height:285px;
   padding: 1%;
   color: gray;
   font-family: sans-serif;
@@ -46,4 +48,49 @@ body {
 
 .article-desc {
   margin-top: -5%;
+}
+
+.buttons {
+  width:40%;
+  height: 10%;
+  float:right;
+  margin-top: 25%;
+}
+
+.update-but {
+  float: left;
+
+}
+.delete-but {
+  float: right;
+}
+
+.today-stories {
+  outline: red solid 1px;
+  width: 1000px;
+  height:56px;
+  background-color: lightblue;
+  margin-top: 25px;
+}
+
+#feature-img {
+  width: 970px;
+  height: 375px;
+  min-width: 768px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.feature-title {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: -5%;
+  text-align: center;
+  outline: red solid 1px;
+}
+
+.main-feature {
+  outline: red solid 2px;
 }
