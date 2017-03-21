@@ -38,6 +38,7 @@
     "ember-resolver": "^2.0.3",
     "ember-side-menu": "0.0.12",
     "ember-welcome-page": "^1.0.3",
+    "emberfire": "2.0.6",
     "loader.js": "^4.0.10"
   },
   "engines": {
