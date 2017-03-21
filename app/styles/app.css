@@ -1,22 +1,49 @@
 
+body {
+  background-color: lightgray;
+}
+
 #primary-image {
-  outline: red 1px solid;
   text-align: center;
   width: 970px;
   height: 375px;
   min-width: 768px;
   max-width: 100%;
-  position: relative;
 }
 
-.nav-area {
-  outline: red 1px solid;
-  height: 50px;
-  width: 100%;
+.container {
+  border: red 13px solid;
 }
+/*.ember-view {
+  width: 945px;
+  height: 285px;
+  outline: red solid 1px;
+  margin: 20px;
+}*/
 
-.x-image__image {
+.article-image {
   width: 460px;
   height: 245px;
-  min-width: 768px;
+  float:left;
+}
+
+.article-tile {
+  background-color: white;
+  padding: 1%;
+  color: gray;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+
+
+.clip-details {
+  width: 444px;
+  height: 180px;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 0%;
+}
+
+.article-desc {
+  margin-top: -5%;
 }
