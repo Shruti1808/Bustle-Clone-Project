@@ -1,0 +1,16 @@
+
+#primary-image {
+  outline: red 1px solid;
+  text-align: center;
+  width: 970px;
+  height: 375px;
+  min-width: 768px;
+  max-width: 100%;
+  position: relative;
+}
+
+.nav-area {
+  outline: red 1px solid;
+  height: 50px;
+  width: 100%;
+}

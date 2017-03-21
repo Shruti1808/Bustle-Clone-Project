@@ -1,0 +1,37 @@
+<!-- {{#side-menu}}
+
+<header class="navbar navbar-default">
+    <div class="navbar-header">
+    </div>
+  </header>
+  <ul class="nav">
+    <li class="header">About</li>
+    <li>
+      {{#side-menu-link-to "new"}}
+        {{inline-svg "plus" class="icon"}}
+      {{/side-menu-link-to}}
+    </li>
+    <li class="divider"></li>
+
+  </ul>
+{{/side-menu}}
+{{content-backdrop}} -->
+
+
+ <!-- {{partial "shared/navbar"}} -->
+
+
+ {{outlet}}
+      <div class="container nav-area">
+        <nav class="navbar sticky-top navbar-light bg-faded">
+        <a class="navbar-brand" href="#">HomePage</a>
+        <div class="ember-view menu-btn">
+        </div>
+      </nav>
+    </div>
+
+
+   <!-- <a class="navbar-brand" href="#">News</a>
+  <a class="navbar-brand" href="#">About Us</a>
+  <a class="navbar-brand" href="#">Contact</a>
+  <p>&copy;Bustle @DateTime.Now.Year</p> -->
